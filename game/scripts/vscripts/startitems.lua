@@ -8,6 +8,7 @@ local startitems = {
 local bonusabilities = {
 	-- exampleability = { lvl = 1, cd = 120 , nokey = true, hidden = true, cast = true },
 	-- roshan_spell_block = { lvl = 4, nokey = true },
+	friendship = {lvl = 1, nokey = true, hidden = true}
 }
 local bonusmodifier = {
 	-- examplemodifier = {duration = 3}, -- this adds a duration to the modifier.

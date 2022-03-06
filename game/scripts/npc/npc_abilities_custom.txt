@@ -39,6 +39,14 @@
 		}
 	}
 
+	"friendship"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"abilities/friendship"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"MaxLevel"						"1"							// Maximum skillable level
+	}
+
 	"special_bonus_exampletalent"			// start talent names with special_bonus_
 	{
 		"BaseClass"					"special_bonus_undefined"
