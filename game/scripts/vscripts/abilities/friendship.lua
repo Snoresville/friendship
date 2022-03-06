@@ -28,7 +28,7 @@ function friendship:attack(target)
 end
 
 function friendship:OnProjectileHit(target, location)
-    if not target then return end
+    if not target or not target:IsAlive() then return end
 
     self:GetCaster().is_attacking = true
     self:GetCaster():PerformAttack(target, true, true, true, true, false, false, true)
